@@ -7,6 +7,10 @@ Elasticsearch Curator helps you curate, or manage, your Elasticsearch indices an
 
 https://www.elastic.co/guide/en/elasticsearch/client/curator/4.0/index.html
 
+https://www.elastic.co/blog/curator_v4_release
+
+
+
 This image comes with a default set of configuration files for curator,
 but if you want to provide your own set of configuration and action files, you can do so via a volume mounted at /usr/share/curator/config:
 
