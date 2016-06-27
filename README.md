@@ -1,5 +1,6 @@
 # docker-es-curator-cron
 Docker container to run elasticsearch curator 4
+
 Elasticsearch Curator helps you curate, or manage, your Elasticsearch indices and snapshots
 
 
