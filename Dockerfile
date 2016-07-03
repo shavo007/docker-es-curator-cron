@@ -3,6 +3,7 @@ FROM alpine:latest
 
 RUN apk --update add python py-pip && \
     pip install elasticsearch-curator && \
+     pip install requests-aws4auth && \
      rm -rf /var/cache/apk/*
 
 ADD entrypoint.sh /entrypoint.sh
